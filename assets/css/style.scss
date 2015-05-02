@@ -65,7 +65,7 @@ p {
 
 body {
   background: #e6e6e6;
-  font-family: Georgia, Times, serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 a {
@@ -95,7 +95,7 @@ a {
       width: 18px;
     }
     &:hover img {
-      margin: 5px 0 0 -30px;
+      margin: 3px 0 0 -30px;
       display: block;
       float: left;
     }
