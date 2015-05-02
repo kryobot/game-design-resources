@@ -60,7 +60,7 @@ body {
   font-family: Georgia, Times, serif; }
 
 a {
-  color: #65c8ad;
+  color: #ed5162;
   text-decoration: none; }
 
 .intro {
@@ -84,3 +84,17 @@ a {
       margin: 5px 0 0 -30px;
       display: block;
       float: left; }
+
+.list-section {
+  width: 600px;
+  margin: auto;
+  margin-top: 80px;
+  font-size: 20px; }
+  .list-section li {
+    line-height: 1.5em; }
+  .list-section p {
+    font-style: italic; }
+
+.footer {
+  width: 100%;
+  height: 300px; }
