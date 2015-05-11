@@ -56,7 +56,7 @@ p {
   margin: 0 0 10px 0; }
 
 body {
-  background: #e6e6e6;
+  background: #fff;
   font-family: 'Fira Sans', sans-serif; }
 
 a {
@@ -78,12 +78,15 @@ a {
   .nav li {
     line-height: 1.5em; }
     .nav li img {
-      display: none;
-      width: 18px; }
+      display: block;
+      float: left;
+      width: 18px;
+      margin: 3px 0 0 -40px;
+      opacity: 0;
+      transition: margin 0.5s ease; }
     .nav li:hover img {
       margin: 3px 0 0 -30px;
-      display: block;
-      float: left; }
+      opacity: 1; }
 
 .list-section {
   width: 600px;
@@ -92,6 +95,13 @@ a {
   font-size: 20px; }
   .list-section li {
     line-height: 1.5em; }
+    .list-section li::after {
+      content: '';
+      display: block;
+      height: 2px;
+      width: 100px;
+      margin: 0 0 20px 0;
+      background: #cacaca; }
   .list-section p {
     font-style: italic; }
 
